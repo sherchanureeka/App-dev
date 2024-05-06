@@ -1,0 +1,109 @@
+/* HomePage.css */
+.home-page {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Updated to a more friendly and readable font */
+    padding: 20px;
+    background-color: #f4f4f8; /* Lighter, soothing background color */
+    color: #333333; /* Softer text color for better readability */
+}
+
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Updated to a softer navy blue */
+    color: #ecf0f1; /* Light grey text for better contrast */
+    border-bottom: 3px solid #2c3e50; /* Matching border color */
+}
+
+.website-logo {
+    font-size: 28px; /* More prominent font size */
+    font-weight: 600; /* Medium boldness */
+    text-transform: uppercase;
+    letter-spacing: 3px; /* Enhanced spacing for better legibility */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Increased gap for better spacing */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-family: 'Montserrat', sans-serif; /* Stylish font for navigation */
+    text-decoration: none;
+    padding: 10px 20px; /* More comfortable padding */
+    border: 2px solid #ecf0f1; /* Consistent border color */
+    border-radius: 25px; /* More pronounced rounded corners */
+    color: #ecf0f1;
+    transition: all 0.3s ease; /* Smooth all transitions */
+}
+
+.nav-links a:hover {
+    background-color: #ecf0f1; /* White background on hover */
+    color: #34495e; /* Navy blue text on hover */
+}
+
+.logout-button {
+    font-family: 'Montserrat', sans-serif; /* Consistent font for buttons */
+    padding: 10px 20px; /* Uniform padding */
+    border-radius: 25px; /* Matching border radius */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+.content {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: left; /* Aligned text to left for better readability */
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #ebf0f5;
+    font-weight: 600;
+}
+
+.blogs-container {
+    gap: 30px; /* Increased gap for clear separation */
+}
+
+.blog-item {
+    padding: 30px; /* More padding for better content breathing space */
+    border: 1px solid #bdc3c7; /* Softer border color */
+    background-color: #ecf0f1; /* Light grey background for contrast */
+}
+
+.blog-actions {
+    gap: 15px; /* Increased gap for separate action buttons clearly */
+}
+
+.vote-buttons {
+    gap: 15px;
+}
+
+.upvote-button, .downvote-button, .view-image-button {
+    padding: 8px 16px; /* More substantial button size */
+    border-radius: 5px; /* Soft rounded corners */
+}
+
+.upvote-button:hover, .downvote-button:hover, .view-image-button:hover {
+    background-color: #bdc3c7; /* Uniform hover effect */
+    color: #2c3e50;
+}

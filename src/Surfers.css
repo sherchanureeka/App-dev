@@ -1,0 +1,40 @@
+.surfers {
+    padding: 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+
+.blog-post {
+    margin-top: 20px;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 10px;
+}
+
+.comment-section, .comments-display {
+    margin-top: 20px;
+}
+
+.comment-section input[type="text"] {
+    margin-right: 10px;
+}
+.link-button {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+}
+

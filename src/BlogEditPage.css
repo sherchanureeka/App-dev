@@ -1,0 +1,57 @@
+/* BlogEditPage.css */
+.blog-edit-page {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.blog-content {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.edit-button-section {
+    margin-bottom: 20px;
+}
+
+.edit-button, .create-button, .delete-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+}
+
+.create-button {
+    background-color: #4caf50; /* Green color for Create */
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #f44336; /* Red color for Delete */
+    color: #fff;
+}
