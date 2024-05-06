@@ -5,7 +5,9 @@ import './PopularBlogPostPerDate.css'; // Adjust path as needed
 
 function PopularBlogPostPerDate() {
     return (
+        
         <div className="popular-blog-post-per-date">
+             <Navbar />
 
             <div className="content">
                 <h2>Popular Blog Post Per Date</h2>

@@ -1,5 +1,6 @@
 // AdminDashboard.jsx
 import React, { useState } from 'react';
+import Navbar from './Navbar'; // Ensure this path matches where the Navbar is located
 import './AdminDashboard.css';
 
 function AdminDashboard() {
@@ -20,6 +21,7 @@ function AdminDashboard() {
 
     return (
         <div className="admin-dashboard">
+            <Navbar />
             <h2>Admin Dashboard</h2>
             <div className="monthly-overview">
                 <label htmlFor="overview-select">Overview:</label>

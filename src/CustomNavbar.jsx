@@ -21,9 +21,9 @@ function CustomNavbar() {
             {/* Navigation links and Log Out on the right */}
             <div className="right-section">
                 <div className="top-links">
-                    <a href="#home">Home</a>
-                    <a href="#surfers">Surfers</a>
-                    <a href="#profile">Profile</a>
+                    <a href="/home">Home</a>
+                    <a href="/surfers">Surfers</a>
+                    <a href="/profile">Profile</a>
                     <button className="logout-button">Log Out</button>
                 </div>
                 <div className="bottom-links">

@@ -5,8 +5,9 @@ import './CountsPerDatePage.css'; // Import the CSS for this page
 
 function CountsPerDatePage() {
     return (
+        
         <div className="counts-per-date-page">
-    
+     <Navbar />
 
             <div className="content">
                 <h2>Count Per Date Page</h2>

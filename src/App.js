@@ -27,7 +27,7 @@ function App() {
                 <div className="content">
                     <Routes>
                         <Route path="/signup" element={<SignupPage />} />
-                        <Route path="/" element={<LoginPage />} />
+                        <Route path="login/" element={<LoginPage />} />
                         <Route path="/surfers" element={<Surfers />} />
                         <Route path="/home" element={<HomePage />} />
                         <Route path="/countsperdate" element={<CountsPerDatePage />} />

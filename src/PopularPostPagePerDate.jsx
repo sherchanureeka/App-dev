@@ -6,6 +6,7 @@ import './PopularPostPagePerDate.css';
 function PopularPostPagePerDate() {
     return (
         <div className="popular-post-page-per-date">
+            <Navbar />
 
             <div className="content">
                 <h2>Popular Post Page Per Date</h2>

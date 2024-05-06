@@ -5,13 +5,13 @@ import './Navbar.css';
 function Navbar() {
     return (
         <nav className="navbar">
-            <button>Admin Dashboard</button>
-            <button>Count</button>
-            <button>Popular Post</button>
-            <button>Popular date</button>
-            <button>Popular Blogger</button>
-            <button>Popular Blogger Per date</button>
-            <button>Log out</button>
+             <a href="/admin">Admin Dashboard</a>
+             <a href="/countsperdate">Count</a>
+             <a href="/popular-post-page-per-date">Popular Post</a>
+             <a href="/profile">Popular date</a>
+             <a href="/popular-blog-post-per-date">Popular Blogger</a>
+             <a href="/profile">Popular Blogger Per date</a>
+             <button className="logout-button">Log Out</button>
             
         </nav>
     );
